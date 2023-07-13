@@ -1,0 +1,50 @@
+.container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px 50px 20px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #edbd0d;
+    border-radius: 50px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px dashed #5be5fe;
+    background-color: aliceblue
+}
+
+button {
+    align-items: center;
+    margin-left: 220px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #48fb75;
+    color: rgb(204, 52, 250);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #5be5fe;
+    color: rgb(242, 17, 17);
+}
+
+label.gender {
+    display: inline;
+}

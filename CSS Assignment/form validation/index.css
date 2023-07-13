@@ -1,0 +1,52 @@
+.container {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    color: red;
+    display: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:invalid+.error-message {
+    display: block;
+}
+
+input:hover {
+    outline: none;
+    border: 2px dashed greenyellow;
+}
+
+.btn {
+    width: 275px;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    outline: none;
+    border-color: deeppink;
+    background-color: aqua;
+}

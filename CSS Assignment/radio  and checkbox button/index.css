@@ -1,0 +1,95 @@
+.container {
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 500px;
+    padding: 20px;
+    border: 2px solid #3defd1;
+    border-radius: 5px;
+    background-color: #fadede;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+input.username,
+input.email {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4cd8d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    outline: none;
+    background-color: #2daee6;
+    border: 2px solid rgb(150, 43, 238);
+}
+
+input:hover {
+    background-color: aliceblue;
+}
+
+.langlabel {
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    padding: 2px;
+    background-color: #fff;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007bff;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    padding: 2px;
+    background-color: #fff;
+}
+
+input[type="radio"]:checked {
+    background-color: #007bff;
+}
+
+td {
+    padding-bottom: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(150, 43, 238);
+}
